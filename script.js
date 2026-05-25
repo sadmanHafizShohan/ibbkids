@@ -1,3 +1,16 @@
+// WhatsApp Direct Chat
+function openWhatsApp() {
+    const message = "আস্সালামুয়ালাইকুম! আমি Kids Magic Book সম্পর্কে আরও জানতে চাই।";
+    const phoneNumber = "8801XXXXXXXXX"; // Replace with actual number
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(whatsappURL, '_blank');
+}
+
+// Simulate Live Chat (can be replaced with actual chat widget)
+function startLiveChat() {
+    alert("আমাদের সাপোর্ট টিম এখনই আপনার সেবায় নিয়োজিত। কিভাবে সাহায্য করতে পারি?");
+}
+
 // Package Selection
 function selectPackage(element) {
     document.querySelectorAll('.radio-option').forEach(opt => opt.classList.remove('checked'));
