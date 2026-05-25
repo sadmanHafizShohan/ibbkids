@@ -22,7 +22,7 @@ function closeModal() {
 }
 
 // Google Sheets Script URL — replace with your own
-const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID_HERE/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbx6W4qP3Bc4q3wq6KToybs-BX6rW3uhcr95gVM8uVuvWBsnsGn0r7LC06K6NnFGC28FDA/exec';
 
 const form = document.getElementById('orderForm');
 const loadingOverlay = document.getElementById('loadingOverlay');
